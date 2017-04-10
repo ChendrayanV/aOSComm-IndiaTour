@@ -13,7 +13,7 @@ foreach($Assembly in $Assemblies) {
 #region - Load the functions
 $Public = @(Get-ChildItem -Path $PSScriptRoot\Public\*.ps1 -ErrorAction SilentlyContinue)
 $WorkInProgress = @(Get-ChildItem -Path $PSScriptRoot\WorkInProgress\*.ps1 -ErrorAction SilentlyContinue)
-foreach ($import in @($Public + $WorkInProgress)) {
+foreach ($import in @($Public)) {
     try {
         . $import.fullname
     }

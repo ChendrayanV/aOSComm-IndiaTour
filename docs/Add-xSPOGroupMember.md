@@ -1,22 +1,22 @@
 ---
 external help file: aOSComm-IndiaTour-help.xml
-online version: 
+online version: https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Add-xSPOGroupMember.md
 schema: 2.0.0
 ---
 
 # Add-xSPOGroupMember
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function to add users in SharePoint group.
 
 ## SYNTAX
 
 ```
-Add-xSPOGroupMember [-Url] <Object> [-Identity] <Object> [-Title] <Object>
+Add-xSPOGroupMember [-Url] <Object> [-Identity] <Object> [-Title] <Object> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This PowerShell function is built using CSOM which adds user(s) in SharePoint group(s). 
 
 ## EXAMPLES
 
@@ -74,10 +74,12 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.Object
-
 
 ## OUTPUTS
 

@@ -5,11 +5,11 @@
 <command:details><command:name>Add-xSPOGroupMember</command:name>
 <command:verb>Add</command:verb>
 <command:noun>xSPOGroupMember</command:noun>
-<maml:description><maml:para>{{Fill in the Synopsis}}
+<maml:description><maml:para>A PowerShell function to add users in SharePoint group.
 </maml:para>
 </maml:description>
 </command:details>
-<maml:description><maml:para>{{Fill in the Description}}
+<maml:description><maml:para>This PowerShell function is built using CSOM which adds user(s) in SharePoint group(s).
 </maml:para>
 </maml:description>
 <command:syntax><command:syntaxItem><maml:name>Add-xSPOGroupMember</maml:name>
@@ -95,7 +95,10 @@
 </dev:remarks>
 </command:example>
 </command:examples>
-<command:relatedLinks></command:relatedLinks>
+<command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Add-xSPOGroupMember.md</maml:uri>
+</maml:navigationLink>
+</command:relatedLinks>
 </command:command>
 <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
 <command:details><command:name>Add-xSPOListItem</command:name>

@@ -12,7 +12,7 @@ schema: 2.0.0
 ## SYNTAX
 
 ```
-Get-xFolder [-Identity] <String> [[-ItemCount] <Int32>]
+Get-xFolder [-Identity] <String> [[-ItemCount] <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -59,18 +59,19 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
 System.Int32
-
 
 ## OUTPUTS
 
 ### Microsoft.Exchange.WebServices.Data.ContactsFolder
 Microsoft.Exchange.WebServices.Data.CalendarFolder
 Microsoft.Exchange.WebServices.Data.Folder
-
 
 ## NOTES
 
