@@ -71,22 +71,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### System.Object
 
 ## NOTES
+The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set 
+as mandatory. In next release we will include AAD authentication.
 
 ## RELATED LINKS
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xRoomList.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xMailBox.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xJunkEmail.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xInboxRule.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xFolder.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xCalendarInformation.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Expand-xDistributionGroup.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Connect-xSharePointOnline.md)
 

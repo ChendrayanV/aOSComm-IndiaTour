@@ -98,6 +98,9 @@
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Add-xSPOGroupMember.md</maml:uri>
 </maml:navigationLink>
+<maml:navigationLink><maml:linkText>EWS Managed API</maml:linkText>
+<maml:uri></maml:uri>
+</maml:navigationLink>
 </command:relatedLinks>
 </command:command>
 <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -221,7 +224,7 @@
 <command:details><command:name>Connect-xExchangeOnline</command:name>
 <command:verb>Connect</command:verb>
 <command:noun>xExchangeOnline</command:noun>
-<maml:description><maml:para>{{Fill in the Synopsis}}
+<maml:description><maml:para>A PowerShell function
 </maml:para>
 </maml:description>
 </command:details>
@@ -264,7 +267,7 @@
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD authentication.
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -345,7 +348,7 @@
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD authentication.
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -357,30 +360,6 @@
 </command:example>
 </command:examples>
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Connect-xSharePointOnline.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xRoomList.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xMailBox.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xJunkEmail.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xInboxRule.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xFolder.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xCalendarInformation.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Expand-xDistributionGroup.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Connect-xSharePointOnline.md</maml:uri>
 </maml:navigationLink>
 </command:relatedLinks>
