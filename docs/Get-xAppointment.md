@@ -1,6 +1,6 @@
 ---
 external help file: aOSComm-IndiaTour-help.xml
-online version: https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Add-xSPOListItem.md
+online version: https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Add-xAppointment.md
 schema: 2.0.0
 ---
 
