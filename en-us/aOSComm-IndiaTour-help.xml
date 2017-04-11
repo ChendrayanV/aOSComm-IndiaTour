@@ -221,16 +221,16 @@
 <command:details><command:name>Connect-xExchangeOnline</command:name>
 <command:verb>Connect</command:verb>
 <command:noun>xExchangeOnline</command:noun>
-<maml:description><maml:para>A PowerShell function establish a connection with Exchange Online
+<maml:description><maml:para>{{Fill in the Synopsis}}
 </maml:para>
 </maml:description>
 </command:details>
-<maml:description><maml:para>This PowerShell function is built using EWS Managed API to establish a connection with Exchange Online.
+<maml:description><maml:para>{{Fill in the Description}}
 </maml:para>
 </maml:description>
 <command:syntax><command:syntaxItem><maml:name>Connect-xExchangeOnline</maml:name>
-<command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="0" aliases="none"><maml:name>Credential</maml:name>
-<maml:Description><maml:para>Requires impersonation access. Check with Exchange Online admin for more information.
+<command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="0" aliases="none"><maml:name>Credential</maml:name>
+<maml:Description><maml:para>{{Fill Credential Description}}
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">PSCredential</command:parameterValue>
@@ -240,8 +240,8 @@
 </command:parameter>
 </command:syntaxItem>
 </command:syntax>
-<command:parameters><command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="0" aliases="none"><maml:name>Credential</maml:name>
-<maml:Description><maml:para>Requires impersonation access. Check with Exchange Online admin for more information.
+<command:parameters><command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="0" aliases="none"><maml:name>Credential</maml:name>
+<maml:Description><maml:para>{{Fill Credential Description}}
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">PSCredential</command:parameterValue>
@@ -277,9 +277,6 @@
 </command:examples>
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Connect-xExchangeOnline.md</maml:uri>
-</maml:navigationLink>
-<maml:navigationLink><maml:linkText>EWS Managed API</maml:linkText>
-<maml:uri>http://www.microsoft.com</maml:uri>
 </maml:navigationLink>
 </command:relatedLinks>
 </command:command>
@@ -360,6 +357,30 @@
 </command:example>
 </command:examples>
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Connect-xSharePointOnline.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xRoomList.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xMailBox.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xJunkEmail.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xInboxRule.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xFolder.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xCalendarInformation.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Expand-xDistributionGroup.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Connect-xSharePointOnline.md</maml:uri>
 </maml:navigationLink>
 </command:relatedLinks>
@@ -1770,6 +1791,15 @@
 </command:example>
 </command:examples>
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xTask.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/New-xContact.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/New-xAppointment.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xTask.md</maml:uri>
 </maml:navigationLink>
 </command:relatedLinks>

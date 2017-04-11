@@ -16,7 +16,7 @@ Add-xSPOGroupMember [-Url] <Object> [-Identity] <Object> [-Title] <Object> [<Com
 ```
 
 ## DESCRIPTION
-This PowerShell function is built using CSOM which adds user(s) in SharePoint group(s). 
+This PowerShell function is built using CSOM which adds user(s) in SharePoint group(s).
 
 ## EXAMPLES
 

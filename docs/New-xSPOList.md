@@ -112,8 +112,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## INPUTS
 
 ### System.Object
-Microsoft.SharePoint.Client.ListTemplateType
-System.Boolean
+Microsoft.SharePoint.Client.ListTemplateType System.Boolean
 
 ## OUTPUTS
 

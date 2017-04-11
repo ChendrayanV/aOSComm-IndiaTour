@@ -69,10 +69,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### Microsoft.SharePoint.Client.ChangeList
-Microsoft.SharePoint.Client.ChangeFolder
-Microsoft.SharePoint.Client.ChangeView
-Microsoft.SharePoint.Client.ChangeFile
-Microsoft.SharePoint.Client.ChangeItem
+Microsoft.SharePoint.Client.ChangeFolder Microsoft.SharePoint.Client.ChangeView Microsoft.SharePoint.Client.ChangeFile Microsoft.SharePoint.Client.ChangeItem
 
 ## NOTES
 

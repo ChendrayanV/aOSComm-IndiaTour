@@ -74,3 +74,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
+[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/New-xContact.md)
+
+[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/New-xAppointment.md)
+
+[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xTask.md)
+
