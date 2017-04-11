@@ -98,9 +98,6 @@
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Add-xSPOGroupMember.md</maml:uri>
 </maml:navigationLink>
-<maml:navigationLink><maml:linkText>EWS Managed API</maml:linkText>
-<maml:uri></maml:uri>
-</maml:navigationLink>
 </command:relatedLinks>
 </command:command>
 <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -224,16 +221,17 @@
 <command:details><command:name>Connect-xExchangeOnline</command:name>
 <command:verb>Connect</command:verb>
 <command:noun>xExchangeOnline</command:noun>
-<maml:description><maml:para>A PowerShell function
+<maml:description><maml:para>A PowerShell function to establish a connection with Exchange Online.
 </maml:para>
 </maml:description>
 </command:details>
-<maml:description><maml:para>{{Fill in the Description}}
+<maml:description><maml:para>This function is built using EWS Managed API and requires impersonation or minimum delegated permission. Contact Exchange Online administrator for more information.
+
 </maml:para>
 </maml:description>
 <command:syntax><command:syntaxItem><maml:name>Connect-xExchangeOnline</maml:name>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="0" aliases="none"><maml:name>Credential</maml:name>
-<maml:Description><maml:para>{{Fill Credential Description}}
+<maml:Description><maml:para>Exchange Online admin or any account with impersonation or delegate access permission on the mailbox.
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">PSCredential</command:parameterValue>
@@ -244,7 +242,7 @@
 </command:syntaxItem>
 </command:syntax>
 <command:parameters><command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="0" aliases="none"><maml:name>Credential</maml:name>
-<maml:Description><maml:para>{{Fill Credential Description}}
+<maml:Description><maml:para>Exchange Online admin or any account with impersonation or delegate access permission on the mailbox.
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">PSCredential</command:parameterValue>
@@ -267,13 +265,22 @@
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD authentication.
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
 <command:examples><command:example><maml:title>Example 1</maml:title>
-<dev:code>PS C:\&gt; {{ Add example code here }}</dev:code>
-<dev:remarks><maml:para>{{ Add example description here }}
+<dev:code>PS C:\&gt; Connect-xExchangeOnline -Credential 'admin@contoso.onmicrosoft.com'</dev:code>
+<dev:remarks><maml:para>This cmdlet is to connect with Exchange Online as administrator. Once the connection is established  successfully other Exchange Online functions in this module re-use the same.
+</maml:para>
+</dev:remarks>
+</command:example>
+<command:example><maml:title>Example 2</maml:title>
+<dev:code>PS C:\&gt; $Credential = Get-Credential -Credential 'admin@contoso.onmicrosoft.com'
+PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
+<dev:remarks><maml:para>An alternate approach of Example 1 - Here the variable $Credential can be reused.
 </maml:para>
 </dev:remarks>
 </command:example>
@@ -281,22 +288,25 @@
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Connect-xExchangeOnline.md</maml:uri>
 </maml:navigationLink>
+<maml:navigationLink><maml:linkText>Exchange 2013 101 Code Samples</maml:linkText>
+<maml:uri>https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c</maml:uri>
+</maml:navigationLink>
 </command:relatedLinks>
 </command:command>
 <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
 <command:details><command:name>Connect-xSharePointOnline</command:name>
 <command:verb>Connect</command:verb>
 <command:noun>xSharePointOnline</command:noun>
-<maml:description><maml:para>{{Fill in the Synopsis}}
+<maml:description><maml:para>A PowerShell function to establish a connection with SharePoint Online tenant.
 </maml:para>
 </maml:description>
 </command:details>
-<maml:description><maml:para>{{Fill in the Description}}
+<maml:description><maml:para>This PowerShell function is built using Client Side Object Model (CSOM). For a demo purpose we are connecting with SharePoint Online tenant as a tenant admin. So, we can access all other  site collections and sites.
 </maml:para>
 </maml:description>
 <command:syntax><command:syntaxItem><maml:name>Connect-xSharePointOnline</maml:name>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="0" aliases="none"><maml:name>Url</maml:name>
-<maml:Description><maml:para>{{Fill Url Description}}
+<maml:Description><maml:para>SharePoint Online Tenant admin url (Example: https://tenant-admin.sharepoint.com)
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">Uri</command:parameterValue>
@@ -305,7 +315,7 @@
 <dev:defaultValue>None</dev:defaultValue>
 </command:parameter>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none"><maml:name>Credential</maml:name>
-<maml:Description><maml:para>{{Fill Credential Description}}
+<maml:Description><maml:para>SharePoint Online Tenant administrator credential.
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">PSCredential</command:parameterValue>
@@ -316,7 +326,7 @@
 </command:syntaxItem>
 </command:syntax>
 <command:parameters><command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none"><maml:name>Credential</maml:name>
-<maml:Description><maml:para>{{Fill Credential Description}}
+<maml:Description><maml:para>SharePoint Online Tenant administrator credential.
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">PSCredential</command:parameterValue>
@@ -325,7 +335,7 @@
 <dev:defaultValue>None</dev:defaultValue>
 </command:parameter>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="0" aliases="none"><maml:name>Url</maml:name>
-<maml:Description><maml:para>{{Fill Url Description}}
+<maml:Description><maml:para>SharePoint Online Tenant admin url (Example: https://tenant-admin.sharepoint.com)
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">Uri</command:parameterValue>
@@ -348,19 +358,24 @@
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD authentication.
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
 <command:examples><command:example><maml:title>Example 1</maml:title>
-<dev:code>PS C:\&gt; {{ Add example code here }}</dev:code>
-<dev:remarks><maml:para>{{ Add example description here }}
+<dev:code>PS C:\&gt; Connect-xSharePointOnline -Url 'https://contoso-admin.sharepoint.com' -Credential 'admin@contoso.onmicrosoft.com'</dev:code>
+<dev:remarks><maml:para>This cmdlet will allow you to establish a connection with SharePoint Online as tenant admin.
 </maml:para>
 </dev:remarks>
 </command:example>
 </command:examples>
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Connect-xSharePointOnline.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>SharePoint 2013 .Net Client Side Object Model Cookbook</maml:linkText>
+<maml:uri>http://www.c-sharpcorner.com/ebooks/sharepoint-2013-dot-net-client-side-object-model-cookbook</maml:uri>
 </maml:navigationLink>
 </command:relatedLinks>
 </command:command>
