@@ -56,7 +56,8 @@ b. A simple one line declaration helps us to select the properties by tab comple
 a. Install-Module platyPS -Verbose (Works in PowerShell 5.0 +)  
 b. [GitHub Link](https://github.com/PowerShell/platyPS)  
 c. [PowerShell Gallery](https://www.powershellgallery.com/packages/platyPS/0.7.6)  
-d. Refer [Writing Help for Windows PowerShell Modules](https://msdn.microsoft.com/en-us/library/dd878343(v=vs.85).aspx)  
+d. Refer [Writing Help for Windows PowerShell Modules](https://msdn.microsoft.com/en-us/library/dd878343(v=vs.85).aspx)9. Where can we get more videos about CSOM?  
+a. With no doubt [Channel 9](https://channel9.msdn.com/search?term=sharepoint%20client%20side%20object%20model#ch9Search&lang-en=en&pubDate=year)
 
 ## Sincere Thanks
 [Vijai Anand Ramalingam](http://www.c-sharpcorner.com/members/vijai-anand-ramalingam) for the excellent SharePoint 2013 .Net Client Side Object Model Cookbook.  
