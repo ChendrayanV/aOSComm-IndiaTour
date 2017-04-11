@@ -32,7 +32,7 @@ script module and writing external help in MD using platyPS module. We discussed
 script module, Client Side Object Model and EWS Managed API. Yes, we covered few concepts about native SharePoint Online, Exchange Online and MSOnline modules and cmdlets. But, we haven't covered in this repository! 
 **At heart, this repo contains about using CSOM, EWS Managed API, platyPS and writing PowerShell script module**
 
-## Discussion Panel
+## General Discussion Panel
 1. Why PowerShell not Python?  
 a. There is no thumb rule to use PowerShell if you are familiar in Python do use it. Here is the reference link
 [python-sharepoint](https://github.com/ox-it/python-sharepoint). Under the hood it uses REST web services. Be aware of using REST and learn about advantage of using Client Side Object Model.
@@ -52,6 +52,11 @@ a. Exception Handling Scope is one of the advanced task in the Common Programmin
 7. What is outputtype? Why to use?  
 a. Use [help about_Functions_OutputTypeAttribute](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_functions_outputtypeattribute)  
 b. A simple one line declaration helps us to select the properties by tab completion. 
+8. Where can we get platyPS Module?  
+a. Install-Module platyPS -Verbose (Works in PowerShell 5.0 +)  
+b. [GitHub Link]()  
+c. [PowerShell Gallery]()  
+d. Refer [Writing Help for Windows PowerShell Modules](https://msdn.microsoft.com/en-us/library/dd878343(v=vs.85).aspx)  
 
 ## Sincere Thanks
 [Vijai Anand Ramalingam](http://www.c-sharpcorner.com/members/vijai-anand-ramalingam) for the excellent SharePoint 2013 .Net Client Side Object Model Cookbook.  
