@@ -72,4 +72,5 @@ as mandatory. In next release we will include AAD default authentication.
 
 ## RELATED LINKS
 
+[EWS Managed API](https://msdn.microsoft.com/en-us/library/office/dd877012(v=exchg.150).aspx#bk_EWSMA)
 [Exchange 2013 101 Code Samples](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)

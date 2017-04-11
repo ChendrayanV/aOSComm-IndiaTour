@@ -74,9 +74,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/New-xContact.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/New-xAppointment.md)
-
-[Online Version:](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xTask.md)
-
+[EWS Managed API](https://msdn.microsoft.com/en-us/library/office/dd877012(v=exchg.150).aspx#bk_EWSMA)
+[Exchange 2013 101 Code Samples](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)
