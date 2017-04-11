@@ -12,8 +12,8 @@ aOS Community recently organized a great community event in India (Mumbai and Ba
 ![Bangalore](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Bangalore.png)
 
 ### Speakers Twitter ID
-Name | Twitter ID
----- | ----------
+Name | Twitter ID | Location
+---- | ---------- | --------
 Ashish Trivedi | [@_AshishTrivedi](https://twitter.com/_AshishTrivedi)
 Chendrayan Venkatesan | [@ChendrayanV](https://twitter.com/ChendrayanV)
 Christian Ståhl | [@CStahl](https://twitter.com/CStahl)
@@ -22,7 +22,7 @@ Feroz Khan | [@TechFero](https://twitter.com/)
 Jasjit Chopra | [@JasjitChopra](https://twitter.com/jasjitchopra)
 Narasima Perumal | [@narasimaperumal](https://twitter.com/narasimaperumal)
 Patrick Guimonet | [@patricg](https://twitter.com/patricg)
-Prabhjot Singh Bakshi | [@(prabhjotbakshi)](https://twitter.com/prabhjotbakshi)
+Prabhjot Singh Bakshi | [@prabhjotbakshi](https://twitter.com/prabhjotbakshi)
 Rhomil Bheda | [@Romil_Bheda](https://twitter.com/Romil_Bheda)
 Sébastien Paulet | [@SP_twit](https://twitter.com/SP_twit)
 
