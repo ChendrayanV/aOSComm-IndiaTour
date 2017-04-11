@@ -12,7 +12,7 @@ schema: 2.0.0
 ## SYNTAX
 
 ```
-Get-xSPONavigationNode [-Url] <Object> [-NavigationType] <Object> [<CommonParameters>]
+Get-xSPONavigationNode [-Url] <Object> [-NavigationType] <Object>
 ```
 
 ## DESCRIPTION
@@ -60,9 +60,6 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
-
 ## INPUTS
 
 ### System.Object
@@ -72,9 +69,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### System.Object
 
 ## NOTES
-The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set 
-as mandatory. In next release we will include AAD default authentication.  
-[@ChendrayanV](https://twitter.com/ChendrayanV)  
+The client laptop we used for testing is not domain joined.
+So, for testing purpose $Credential parameter is set  as mandatory.
+In next release we will include AAD default authentication.
+[@ChendrayanV](https://twitter.com/ChendrayanV)
 [Blog Link](http://chen.about-powershell.com)
 
 ## RELATED LINKS
