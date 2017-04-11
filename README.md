@@ -66,4 +66,4 @@ a. With no doubt [Channel 9](https://channel9.msdn.com/search?term=sharepoint%20
 [aOSComm](https://twitter.com/aOSComm) for giving me an oppurtunity to share ideas about CSOM, EWS Managed API and PowerShell 
 ## Disclaimer
 All the PowerShell function created by me (Chendrayan Venkatesan a.k.a Chen V) in this module are built on the fly to demo about **Writing PowerShell
-Script Module and platyPS for external help**. Please do not use this in production environment without testing. 
+Script Module and platyPS for external help**. Please do not use this in production environment without testing. Kindly read the [MIT License](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/LICENSE)
