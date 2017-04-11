@@ -13,18 +13,18 @@ aOS Community recently organized a great community event in India (Mumbai and Ba
 
 ### Speakers Twitter ID (**Contact for more information about the content**)
 Name | Twitter ID | Location | Slide Deck (Docs.com)
----- | ---------- | --------
-Ashish Trivedi | [@_AshishTrivedi](https://twitter.com/_AshishTrivedi) | Bangalore and Mumbai
-Chendrayan Venkatesan | [@ChendrayanV](https://twitter.com/ChendrayanV) | Bangalore and Mumbai
+---- | ---------- | -------- | ---------------------
+Ashish Trivedi | [@_AshishTrivedi](https://twitter.com/_AshishTrivedi) | Bangalore and Mumbai | [YTD]
+Chendrayan Venkatesan | [@ChendrayanV](https://twitter.com/ChendrayanV) | Bangalore and Mumbai | [YTD]
 Christian Ståhl | [@CStahl](https://twitter.com/CStahl) | Bangalore and Mumbai | [Getting Started with Add-in Development for SharePoint Online and Office365](https://docs.com/aos-community/9526/getting-started-with-add-in-development-for)
-Dipti Chhatrapati | [@dips84](https://twitter.com/dips84) | Bangalore and Mumbai
-Feroz Khan | [@TechFero](https://twitter.com/) | Bangalore
-Jasjit Chopra | [@JasjitChopra](https://twitter.com/jasjitchopra) | Mumbai
-Narasima Perumal | [@narasimaperumal](https://twitter.com/narasimaperumal) | Bangalore
-Patrick Guimonet | [@patricg](https://twitter.com/patricg) | Bangalore and Mumbai
-Prabhjot Singh Bakshi | [@prabhjotbakshi](https://twitter.com/prabhjotbakshi) | Mumbai
-Rhomil Bheda | [@Romil_Bheda](https://twitter.com/Romil_Bheda) | Mumbai
-Sébastien Paulet | [@SP_twit](https://twitter.com/SP_twit) | Bangalore and Mumbai
+Dipti Chhatrapati | [@dips84](https://twitter.com/dips84) | Bangalore and Mumbai | [YTD]
+Feroz Khan | [@TechFero](https://twitter.com/) | Bangalore | [YTD]
+Jasjit Chopra | [@JasjitChopra](https://twitter.com/jasjitchopra) | Mumbai | [YTD]
+Narasima Perumal | [@narasimaperumal](https://twitter.com/narasimaperumal) | Bangalore | [YTD]
+Patrick Guimonet | [@patricg](https://twitter.com/patricg) | Bangalore and Mumbai | [YTD]
+Prabhjot Singh Bakshi | [@prabhjotbakshi](https://twitter.com/prabhjotbakshi) | Mumbai | [YTD]
+Rhomil Bheda | [@Romil_Bheda](https://twitter.com/Romil_Bheda) | Mumbai | [YTD]
+Sébastien Paulet | [@SP_twit](https://twitter.com/SP_twit) | Bangalore and Mumbai | [YTD]
 
 # Automating O365 Using PowerShell
 During this event I shared a demo PowerShell module which helps IT Professionals to build 
