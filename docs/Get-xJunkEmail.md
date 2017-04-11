@@ -7,7 +7,7 @@ schema: 2.0.0
 # Get-xJunkEmail
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function to retrieve Junk email items from the given mailbox
 
 ## SYNTAX
 
@@ -16,21 +16,36 @@ Get-xJunkEmail [-Identity] <Object> [[-ItemCount] <Object>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This PowerShell function is built using EWS Managed API and requires impersonation permission or mailbox
+delegate permission. 
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-xJunkEmail -Identity 'user1@contoso.onmicrosoft.com'
 ```
 
-{{ Add example description here }}
+Lists first 10 junk email items from the mailbox 'user1@contoso.onmicrosoft.com'
+
+### Example 2
+```
+PS C:\> 'user1@contoso.onmicrosoft.com' , 'user2@contoso.onmicrosoft.com' | Get-xJunkEmail
+```
+
+Lists first 10 junk email items from the mailbox 'user1@contoso.onmicrosoft.com' and 'user2@contoso.onmicrosoft.com'
+
+### Example 3
+```
+PS C:\> Get-xJunkEmail -Identity 'user1@contoso.onmicrosoft.com' -ItemCount 5
+```
+
+Lists first 5 junk email items from the mailbox 'user1@contoso.onmicrosoft.com'
 
 ## PARAMETERS
 
 ### -Identity
-{{Fill Identity Description}}
+A Valid mailbox ID (SMTP Address)
 
 ```yaml
 Type: Object
@@ -45,7 +60,7 @@ Accept wildcard characters: False
 ```
 
 ### -ItemCount
-{{Fill ItemCount Description}}
+Number of junk email items to be retrieved - Default is 10
 
 ```yaml
 Type: Object
@@ -71,6 +86,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Microsoft.Exchange.WebServices.Data.EmailMessage
 
 ## NOTES
+[@ChendrayanV](https://twitter.com/ChendrayanV)  
+[Blog](http://chen.about-powershell.com)
 
 ## RELATED LINKS
-
+[EWS Managed API](https://msdn.microsoft.com/en-us/library/office/dd877012(v=exchg.150).aspx#bk_EWSMA)
