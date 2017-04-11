@@ -1,7 +1,9 @@
 # aOSComm-IndiaTour
 aOS : An independent Community  
 [Azure | Office 365 | SharePoint](http://aos.community/index.php/language/en/home/)  
-aOS Community recently organized a great community event in India (Mumbai and Bangalore) with the help of Microsoft. 
+aOS Community recently organized a great community event in India (Mumbai and Bangalore) with the help of Microsoft. To know more about the event search in twitter [#aOSIndiaTour](https://twitter.com/hashtag/aOSIndiaTour?src=hash) , [#aOSBangalore](https://twitter.com/hashtag/aOSBangalore?src=hash) , [#aOSMumbai](https://twitter.com/hashtag/aOSMumbai?src=hash). Follow [@aOSComm](https://twitter.com/aOSComm) for latest news and events across the globe.  
+
+[Refer this link](https://www.eventbrite.fr/o/aos-community-12270024117) for upcoming aOS Community events in and around your city. 
 
 ### aOSMumbai Agenda
 ![Mumbai](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Bangalore.png)
@@ -36,5 +38,5 @@ a. Exception Handling Scope is one of the advanced task in the Common Programmin
 a. Use [help about_Functions_OutputTypeAttribute](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_functions_outputtypeattribute)
 
 ## Disclaimer
-All the PowerShell function created in this module are built on the fly to demo about **Writing PowerShell
+All the PowerShell function created by me (Chendrayan Venkatesan a.k.a Chen V) in this module are built on the fly to demo about **Writing PowerShell
 Script Module and platyPS for external help**. Please do not use this in production environment without testing. 
