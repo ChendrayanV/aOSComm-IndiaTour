@@ -6,15 +6,21 @@ aOS Community recently organized a great community event in India (Mumbai and Ba
 [Refer this link](https://www.eventbrite.fr/o/aos-community-12270024117) for upcoming aOS Community events in and around your city. 
 
 ### aOSMumbai Agenda
-![Mumbai](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Bangalore.png)
+![Mumbai](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Mumbai.png)
 
 ### aOSBangalore Agenda
 ![Bangalore](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Bangalore.png)
 
+### Speakers Twitter ID
+Name | Twitter ID
+---- | ----------
+Ashish Trivedi | [@_AshsishTrivedi]()
+
+
 # Automating O365 Using PowerShell
 During this event I shared a demo PowerShell module which helps IT Professionals to build 
-script module and writing external help in MD using platyPS module. We discussed about best practices while
-using script module, Client Side Object Model and EWS Managed API. Yes, we covered few concepts about native SharePoint Online, Exchange Online and MSOnline modules and cmdlets. But, we haven't covered in this repository! 
+script module and writing external help in MD using platyPS module. We discussed about best practices in 
+script module, Client Side Object Model and EWS Managed API. Yes, we covered few concepts about native SharePoint Online, Exchange Online and MSOnline modules and cmdlets. But, we haven't covered in this repository! 
 **At heart, this repo contains about using CSOM, EWS Managed API, platyPS and writing PowerShell script module**
 
 ## Discussion Panel
@@ -36,6 +42,7 @@ a. Use [caml query](https://msdn.microsoft.com/en-us/library/office/ee534956(v=o
 a. Exception Handling Scope is one of the advanced task in the Common Programming Tasks in the Managed Client Object Model and this is very important while considering performance. In short, all the three requests like starttry{}, startcatch{} and startfinally{} executes in one call.I would like to thank [DIWUG - Dutch Information Worker User Group](http://www.diwug.nl/Pages/default.aspx) for sharing this great information. 
 7. What is outputtype? Why to use?  
 a. Use [help about_Functions_OutputTypeAttribute](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_functions_outputtypeattribute)
+b. A simple one line declaration helps us to select the properties by tab completion. 
 
 ## Disclaimer
 All the PowerShell function created by me (Chendrayan Venkatesan a.k.a Chen V) in this module are built on the fly to demo about **Writing PowerShell
