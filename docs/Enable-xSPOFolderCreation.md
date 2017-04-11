@@ -1,13 +1,13 @@
 ---
 external help file: aOSComm-IndiaTour-help.xml
-online version: 
+online version: https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Enable-xSPOFolderCreation.md
 schema: 2.0.0
 ---
 
 # Enable-xSPOFolderCreation
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function to enable folder creation in the given SharePoint list
 
 ## SYNTAX
 
@@ -16,7 +16,7 @@ Enable-xSPOFolderCreation [-Url] <Object> [-Title] <Object>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This PowerShell function is built using CSOM Managed API
 
 ## EXAMPLES
 
@@ -69,6 +69,8 @@ Accept wildcard characters: False
 ### System.Object
 
 ## NOTES
-
+Connect-xSharePointOnline function needs to be executed prior using this function.  
+[@ChendrayanV](https://twitter.com/chendrayanv)
+[Blog](http://chen.about-powershell.com)
 ## RELATED LINKS
-
+[SharePoint 2013 .Net Client Side Object Model Cookbook](http://www.c-sharpcorner.com/ebooks/sharepoint-2013-dot-net-client-side-object-model-cookbook)
