@@ -79,5 +79,4 @@ as mandatory. In next release we will include AAD default authentication.
 [Blog Link](http://chen.about-powershell.com)
 
 ## RELATED LINKS
-
 [SharePoint 2013 .Net Client Side Object Model Cookbook](http://www.c-sharpcorner.com/ebooks/sharepoint-2013-dot-net-client-side-object-model-cookbook)
