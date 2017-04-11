@@ -61,12 +61,12 @@ Accept wildcard characters: False
 
 ## INPUTS
 
-### System.Object
+### System.String
 
 
 ## OUTPUTS
 
-### System.Object
+### Void
 
 ## NOTES
 Connect-xSharePointOnline function needs to be executed prior using this function.  
