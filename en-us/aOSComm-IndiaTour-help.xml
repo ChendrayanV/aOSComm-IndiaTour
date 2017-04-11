@@ -84,7 +84,9 @@
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -201,7 +203,9 @@
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -448,7 +452,8 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </command:returnValue>
 </command:returnValues>
 <maml:alertSet><maml:alert><maml:para>Connect-xSharePointOnline function needs to be executed prior using this function.
- @ChendrayanV (https://twitter.com/chendrayanv) Blog (http://chen.about-powershell.com)
+ @ChendrayanV (https://twitter.com/chendrayanv)
+ Blog (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -532,7 +537,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -592,7 +599,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -633,7 +642,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 <command:syntax><command:syntaxItem><maml:name>Get-xAppointment</maml:name>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Identity</maml:name>
-<maml:Description><maml:para>Valis Mailbox SMTP address
+<maml:Description><maml:para>Valid Mailbox SMTP address
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -662,7 +671,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 <dev:defaultValue>None</dev:defaultValue>
 </command:parameter>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Identity</maml:name>
-<maml:Description><maml:para>Valis Mailbox SMTP address
+<maml:Description><maml:para>Valid Mailbox SMTP address
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -673,7 +682,13 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </command:parameters>
 <command:inputTypes><command:inputType><dev:type><maml:name>System.String</maml:name>
 </dev:type>
-<maml:description><maml:para>System.Int32
+<maml:description><maml:para>
+</maml:para>
+</maml:description>
+</command:inputType>
+<command:inputType><dev:type><maml:name>System.Int32</maml:name>
+</dev:type>
+<maml:description><maml:para>
 </maml:para>
 </maml:description>
 </command:inputType>
@@ -685,7 +700,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -703,7 +720,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </command:example>
 </command:examples>
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
-<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Add-xSPOListItem.md</maml:uri>
+<maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xAppointment.md</maml:uri>
 </maml:navigationLink>
 </command:relatedLinks>
 </command:command>
@@ -772,7 +789,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -841,7 +860,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -928,8 +949,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>@ChendrayanV (https://twitter.com/ChendrayanV)
- Blog (http://chen.about-powershell.com)
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1010,7 +1032,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1061,7 +1085,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1130,7 +1156,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1214,7 +1242,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1277,7 +1307,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1358,7 +1390,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1421,7 +1455,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1502,7 +1538,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1583,7 +1621,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1667,7 +1707,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1730,7 +1772,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1793,7 +1837,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1853,7 +1899,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1916,7 +1964,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -1979,7 +2029,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -2060,7 +2112,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -2129,7 +2183,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -2273,7 +2329,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -2381,7 +2439,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -2591,7 +2651,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -2729,7 +2791,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -2852,7 +2916,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -2933,7 +2999,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -3014,7 +3082,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -3113,7 +3183,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -3194,7 +3266,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -3296,7 +3370,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
@@ -3359,7 +3435,9 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.
+ @ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>

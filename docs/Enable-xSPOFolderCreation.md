@@ -72,7 +72,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## NOTES
 Connect-xSharePointOnline function needs to be executed prior using this function.  
-[@ChendrayanV](https://twitter.com/chendrayanv)
+[@ChendrayanV](https://twitter.com/chendrayanv)  
 [Blog](http://chen.about-powershell.com)
 
 ## RELATED LINKS
