@@ -6,7 +6,7 @@ aOS Community recently organized a great community event in India (Mumbai and Ba
 [Refer this link](https://www.eventbrite.fr/o/aos-community-12270024117) for upcoming aOS Community events in and around your city. 
 
 ### aOSMumbai Agenda
-![Mumbai](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Mumbai.png)
+![Mumbai](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Mumbai.jpg)
 
 ### aOSBangalore Agenda
 ![Bangalore](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Bangalore.png)
@@ -14,8 +14,17 @@ aOS Community recently organized a great community event in India (Mumbai and Ba
 ### Speakers Twitter ID
 Name | Twitter ID
 ---- | ----------
-Ashish Trivedi | [@_AshsishTrivedi]()
-
+Ashish Trivedi | [@_AshishTrivedi](https://twitter.com/_AshishTrivedi)
+Chendrayan Venkatesan | [@ChendrayanV](https://twitter.com/ChendrayanV)
+Christian Ståhl | [@CStahl](https://twitter.com/CStahl)
+Dipti Chhatrapati | [@dips84](https://twitter.com/dips84)
+Feroz Khan | [@TechFero](https://twitter.com/)
+Jasjit Chopra | [@JasjitChopra](https://twitter.com/jasjitchopra)
+Narasima Perumal | [@narasimaperumal](https://twitter.com/narasimaperumal)
+Patrick Guimonet | [@patricg](https://twitter.com/patricg)
+Prabhjot Singh Bakshi | [@(prabhjotbakshi)](https://twitter.com/prabhjotbakshi)
+Rhomil Bheda | [@Romil_Bheda](https://twitter.com/Romil_Bheda)
+Sébastien Paulet | [@SP_twit](https://twitter.com/SP_twit)
 
 # Automating O365 Using PowerShell
 During this event I shared a demo PowerShell module which helps IT Professionals to build 
