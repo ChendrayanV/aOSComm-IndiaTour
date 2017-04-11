@@ -7,7 +7,7 @@ schema: 2.0.0
 # Expand-xDistributionGroup
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function to expand the given distribution group. 
 
 ## SYNTAX
 
@@ -16,21 +16,28 @@ Expand-xDistributionGroup [-Identity] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This function is built using EWS Managed API. 
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Expand-xDistributionGroup -Identity 'group1@contoso.onmicrosoft.com'
 ```
 
-{{ Add example description here }}
+Expands the given group group1@contoso.onmicrosoft.com
+
+### Example 2
+```
+PS C:\> 'group1@contoso.onmicrosoft.com', 'group2@contoso.onmicrosoft.com' | Expand-xDistributionGroup
+```
+
+Expands the given groups group1@contoso.onmicrosoft.com and group2@contoso.onmicrosoft.com
 
 ## PARAMETERS
 
 ### -Identity
-{{Fill Identity Description}}
+Distribution group ID (admingroup@contoso.onmicrosoft.com)
 
 ```yaml
 Type: String
