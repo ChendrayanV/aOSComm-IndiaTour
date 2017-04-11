@@ -12,11 +12,11 @@ aOS Community recently organized a great community event in India (Mumbai and Ba
 ![Bangalore](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Bangalore.png)
 
 ### Speakers Twitter ID (**Contact for more information about the content**)
-Name | Twitter ID | Location
+Name | Twitter ID | Location | Slide Deck (Docs.com)
 ---- | ---------- | --------
 Ashish Trivedi | [@_AshishTrivedi](https://twitter.com/_AshishTrivedi) | Bangalore and Mumbai
 Chendrayan Venkatesan | [@ChendrayanV](https://twitter.com/ChendrayanV) | Bangalore and Mumbai
-Christian Ståhl | [@CStahl](https://twitter.com/CStahl) | Bangalore and Mumbai
+Christian Ståhl | [@CStahl](https://twitter.com/CStahl) | Bangalore and Mumbai | [Getting Started with Add-in Development for SharePoint Online and Office365](https://docs.com/aos-community/9526/getting-started-with-add-in-development-for)
 Dipti Chhatrapati | [@dips84](https://twitter.com/dips84) | Bangalore and Mumbai
 Feroz Khan | [@TechFero](https://twitter.com/) | Bangalore
 Jasjit Chopra | [@JasjitChopra](https://twitter.com/jasjitchopra) | Mumbai
