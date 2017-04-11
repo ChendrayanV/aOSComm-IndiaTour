@@ -54,8 +54,8 @@ a. Use [help about_Functions_OutputTypeAttribute](https://msdn.microsoft.com/en-
 b. A simple one line declaration helps us to select the properties by tab completion. 
 8. Where can we get platyPS Module?  
 a. Install-Module platyPS -Verbose (Works in PowerShell 5.0 +)  
-b. [GitHub Link]()  
-c. [PowerShell Gallery]()  
+b. [GitHub Link](https://github.com/PowerShell/platyPS)  
+c. [PowerShell Gallery](https://www.powershellgallery.com/packages/platyPS/0.7.6)  
 d. Refer [Writing Help for Windows PowerShell Modules](https://msdn.microsoft.com/en-us/library/dd878343(v=vs.85).aspx)  
 
 ## Sincere Thanks
