@@ -50,7 +50,7 @@ a. Use [caml query](https://msdn.microsoft.com/en-us/library/office/ee534956(v=o
 6. What is ExceptionHandlingScope? Why to use in PowerShell?  
 a. Exception Handling Scope is one of the advanced task in the Common Programming Tasks in the Managed Client Object Model and this is very important while considering performance. In short, all the three requests like starttry{}, startcatch{} and startfinally{} executes in one call.I would like to thank [DIWUG - Dutch Information Worker User Group](http://www.diwug.nl/Pages/default.aspx) for sharing this great information. 
 7. What is outputtype? Why to use?  
-a. Use [help about_Functions_OutputTypeAttribute](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_functions_outputtypeattribute)
+a. Use [help about_Functions_OutputTypeAttribute](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_functions_outputtypeattribute)  
 b. A simple one line declaration helps us to select the properties by tab completion. 
 
 ## Sincere Thanks
