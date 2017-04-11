@@ -21,7 +21,7 @@ Dipti Chhatrapati | [@dips84](https://twitter.com/dips84) | Bangalore and Mumbai
 Feroz Khan | [@TechFero](https://twitter.com/) | Bangalore | [YTD]
 Jasjit Chopra | [@JasjitChopra](https://twitter.com/jasjitchopra) | Mumbai | [YTD]
 Narasima Perumal | [@narasimaperumal](https://twitter.com/narasimaperumal) | Bangalore | [YTD]
-Patrick Guimonet | [@patricg](https://twitter.com/patricg) | Bangalore and Mumbai | [YTD]
+Patrick Guimonet | [@patricg](https://twitter.com/patricg) | Bangalore and Mumbai | [Biggest fails and Best practices using Office 365 toolset for real life projects](https://docs.com/aos-community/9789/biggest-fails-and-bp-using-office-365-toolset?c=soeSjm) 
 Prabhjot Singh Bakshi | [@prabhjotbakshi](https://twitter.com/prabhjotbakshi) | Mumbai | [YTD]
 Rhomil Bheda | [@Romil_Bheda](https://twitter.com/Romil_Bheda) | Mumbai | [YTD]
 Sébastien Paulet | [@SP_twit](https://twitter.com/SP_twit) | Bangalore and Mumbai | [YTD]
