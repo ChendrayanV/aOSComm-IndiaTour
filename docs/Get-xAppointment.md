@@ -53,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -Identity
-Valis Mailbox SMTP address
+Valid Mailbox SMTP address
 
 ```yaml
 Type: String
