@@ -11,7 +11,7 @@ aOS Community recently organized a great community event in India (Mumbai and Ba
 ### aOSBangalore Agenda
 ![Bangalore](https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/images/Bangalore.png)
 
-### Speakers Twitter ID
+### Speakers Twitter ID (**Contact for more information about the content**)
 Name | Twitter ID | Location
 ---- | ---------- | --------
 Ashish Trivedi | [@_AshishTrivedi](https://twitter.com/_AshishTrivedi) | Bangalore and Mumbai
