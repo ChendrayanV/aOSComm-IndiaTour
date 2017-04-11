@@ -843,16 +843,16 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 <command:details><command:name>Get-xJunkEmail</command:name>
 <command:verb>Get</command:verb>
 <command:noun>xJunkEmail</command:noun>
-<maml:description><maml:para>{{Fill in the Synopsis}}
+<maml:description><maml:para>A PowerShell function to retrieve Junk email items from the given mailbox
 </maml:para>
 </maml:description>
 </command:details>
-<maml:description><maml:para>{{Fill in the Description}}
+<maml:description><maml:para>This PowerShell function is built using EWS Managed API and requires impersonation permission or mailbox delegate permission.
 </maml:para>
 </maml:description>
 <command:syntax><command:syntaxItem><maml:name>Get-xJunkEmail</maml:name>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Identity</maml:name>
-<maml:Description><maml:para>{{Fill Identity Description}}
+<maml:Description><maml:para>A Valid mailbox ID (SMTP Address)
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
@@ -861,7 +861,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 <dev:defaultValue>None</dev:defaultValue>
 </command:parameter>
 <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none"><maml:name>ItemCount</maml:name>
-<maml:Description><maml:para>{{Fill ItemCount Description}}
+<maml:Description><maml:para>Number of junk email items to be retrieved - Default is 10
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
@@ -872,7 +872,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </command:syntaxItem>
 </command:syntax>
 <command:parameters><command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Identity</maml:name>
-<maml:Description><maml:para>{{Fill Identity Description}}
+<maml:Description><maml:para>A Valid mailbox ID (SMTP Address)
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
@@ -881,7 +881,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 <dev:defaultValue>None</dev:defaultValue>
 </command:parameter>
 <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none"><maml:name>ItemCount</maml:name>
-<maml:Description><maml:para>{{Fill ItemCount Description}}
+<maml:Description><maml:para>Number of junk email items to be retrieved - Default is 10
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
@@ -904,19 +904,35 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>
+<maml:alertSet><maml:alert><maml:para>@ChendrayanV (https://twitter.com/ChendrayanV)
+ Blog (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
 <command:examples><command:example><maml:title>Example 1</maml:title>
-<dev:code>PS C:\&gt; {{ Add example code here }}</dev:code>
-<dev:remarks><maml:para>{{ Add example description here }}
+<dev:code>PS C:\&gt; Get-xJunkEmail -Identity 'user1@contoso.onmicrosoft.com'</dev:code>
+<dev:remarks><maml:para>Lists first 10 junk email items from the mailbox 'user1@contoso.onmicrosoft.com'
+</maml:para>
+</dev:remarks>
+</command:example>
+<command:example><maml:title>Example 2</maml:title>
+<dev:code>PS C:\&gt; 'user1@contoso.onmicrosoft.com' , 'user2@contoso.onmicrosoft.com' | Get-xJunkEmail</dev:code>
+<dev:remarks><maml:para>Lists first 10 junk email items from the mailbox 'user1@contoso.onmicrosoft.com' and 'user2@contoso.onmicrosoft.com'
+</maml:para>
+</dev:remarks>
+</command:example>
+<command:example><maml:title>Example 3</maml:title>
+<dev:code>PS C:\&gt; Get-xJunkEmail -Identity 'user1@contoso.onmicrosoft.com' -ItemCount 5</dev:code>
+<dev:remarks><maml:para>Lists first 5 junk email items from the mailbox 'user1@contoso.onmicrosoft.com'
 </maml:para>
 </dev:remarks>
 </command:example>
 </command:examples>
 <command:relatedLinks><maml:navigationLink><maml:linkText>Online Version:</maml:linkText>
 <maml:uri>https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Get-xJunkEmail.md</maml:uri>
+</maml:navigationLink>
+<maml:navigationLink><maml:linkText>EWS Managed API</maml:linkText>
+<maml:uri>https://msdn.microsoft.com/en-us/library/office/dd877012(v=exchg.150).aspx#bk_EWSMA</maml:uri>
 </maml:navigationLink>
 </command:relatedLinks>
 </command:command>

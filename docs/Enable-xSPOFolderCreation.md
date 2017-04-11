@@ -12,7 +12,7 @@ A PowerShell function to enable folder creation in the given SharePoint list
 ## SYNTAX
 
 ```
-Enable-xSPOFolderCreation [-Url] <Object> [-Title] <Object>
+Enable-xSPOFolderCreation [-Url] <Object> [-Title] <Object> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -59,10 +59,12 @@ Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
-
 
 ## OUTPUTS
 
@@ -72,5 +74,7 @@ Accept wildcard characters: False
 Connect-xSharePointOnline function needs to be executed prior using this function.  
 [@ChendrayanV](https://twitter.com/chendrayanv)
 [Blog](http://chen.about-powershell.com)
+
 ## RELATED LINKS
+
 [SharePoint 2013 .Net Client Side Object Model Cookbook](http://www.c-sharpcorner.com/ebooks/sharepoint-2013-dot-net-client-side-object-model-cookbook)
