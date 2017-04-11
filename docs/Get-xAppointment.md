@@ -1,13 +1,13 @@
 ---
 external help file: aOSComm-IndiaTour-help.xml
-online version: 
+online version: https://github.com/ChendrayanV/aOSComm-IndiaTour/blob/master/docs/Add-xSPOListItem.md
 schema: 2.0.0
 ---
 
 # Get-xAppointment
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function to retrieve appointment information from the given mailbox
 
 ## SYNTAX
 
@@ -16,21 +16,29 @@ Get-xAppointment [-Identity] <String> [-Days] <Int32>
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This PowerShell function is created using EWS Managed API and requires mailbox delegate or impersonation permission. 
+Contact Exchange Online admin for more information. 
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-xAppointment -Identity 'user1@contoso.onmicrosoft.com' -Days 2
 ```
 
-{{ Add example description here }}
+Retrieves next 2 days appointment information from the given mailbox.
+
+### Example 2
+```
+PS C:\> 'user1@contoso.onmicrosoft.com' , 'user2@contoso.onmicrosoft.com' | Get-xAppointment -Days 2
+```
+
+Retrieves next 2 days appointment information from the given mailboxes.
 
 ## PARAMETERS
 
 ### -Days
-{{Fill Days Description}}
+Number of days (from now and next x days)
 
 ```yaml
 Type: Int32
@@ -45,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -Identity
-{{Fill Identity Description}}
+Valis Mailbox SMTP address
 
 ```yaml
 Type: String
