@@ -7,7 +7,7 @@ schema: 2.0.0
 # Connect-xExchangeOnline
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function establish a connection with Exchange Online
 
 ## SYNTAX
 
@@ -16,7 +16,7 @@ Connect-xExchangeOnline [[-Credential] <PSCredential>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This PowerShell function is built using EWS Managed API to establish a connection with Exchange Online. 
 
 ## EXAMPLES
 
@@ -30,7 +30,7 @@ PS C:\> {{ Add example code here }}
 ## PARAMETERS
 
 ### -Credential
-{{Fill Credential Description}}
+Requires impersonation access. Check with Exchange Online admin for more information. 
 
 ```yaml
 Type: PSCredential
@@ -58,4 +58,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-
+[EWS Managed API](http://www.microsoft.com)
