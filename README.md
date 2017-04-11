@@ -62,7 +62,7 @@ a. With no doubt [Channel 9](https://channel9.msdn.com/search?term=sharepoint%20
 
 ## Sincere Thanks
 [Vijai Anand Ramalingam](http://www.c-sharpcorner.com/members/vijai-anand-ramalingam) for the excellent SharePoint 2013 .Net Client Side Object Model Cookbook.  
-[François-Xavier Cat](https://github.com/lazywinadmin) for expanding help in MD and github.  
+[François-Xavier Cat](https://github.com/lazywinadmin) for sharing help in MD and github.  
 [aOSComm](https://twitter.com/aOSComm) for giving me an oppurtunity to share ideas about CSOM, EWS Managed API and PowerShell 
 ## Disclaimer
 All the PowerShell function created by me (Chendrayan Venkatesan a.k.a Chen V) in this module are built on the fly to demo about **Writing PowerShell
