@@ -1,4 +1,4 @@
-function Get-xCalendarInformation {
+function Get-xAppointment {
     [CmdletBinding()]
     [Outputtype('Microsoft.Exchange.WebServices.Data.Appointment')]
     param (
