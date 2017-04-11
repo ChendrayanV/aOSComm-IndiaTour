@@ -73,6 +73,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set 
 as mandatory. In next release we will include AAD authentication.
-
+[@ChendrayanV](https://twitter.com/ChendrayanV)
+[Blog Link](http://chen.about-powershell.com)
 ## RELATED LINKS
 
