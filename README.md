@@ -8,7 +8,7 @@ aOS Community recently organized a great community event in India (Mumbai and Ba
 1 | Chendrayan Venkatesan | [@ChendrayanV](https://twitter.com/ChendrayanV)
 
 ### aOSMumbai Agenda
-
+[Mumbai]()
 ### aOSBangalore Agenda
 
 # Disclaimer
