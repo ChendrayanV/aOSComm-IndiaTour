@@ -58,4 +58,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## NOTES
 
 ## RELATED LINKS
-[EWS Managed API](http://www.microsoft.com)
+[EWS Managed API](https://msdn.microsoft.com/en-us/library/office/dn567668(v=exchg.150).aspx)
+[Exchange 2013 101 Code Samples](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c/file/61157/129/Exchange%202013%20101%20Code%20Samples.zip)
