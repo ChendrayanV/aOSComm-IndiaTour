@@ -23,7 +23,7 @@ function Search-xSPOSite {
             $SearchExecutor = [Microsoft.SharePoint.Client.Search.Query.SearchExecutor]::new($SPOClientContext)
             $SearchResults = $SearchExecutor.ExecuteQuery($KeyWordQuery)
             $SPOClientContext.ExecuteQuery()
-            # $SPOClientContext.Dispose()
+            $SPOClientContext.Dispose()
             foreach ($SearchResult in $SearchResults.Value.ResultRows) {
                 [pscustomobject]@{
                     Rank = '{0:N2}' -f ($Searchresult.Rank)
