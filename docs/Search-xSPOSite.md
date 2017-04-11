@@ -27,6 +27,13 @@ PS C:\> Search-xSPOSite -Url https://chensoffice365.sharepoint.com -QueryText 'S
 
 Retrieve SharePoint search results for the keyword SearchString (Replace it with your own word e.g: PowerShell)
 
+### Example 2
+```
+PS C:\> '*.docx' ,'*.xlsx' , '*aOS*' | Search-xSPOSite -Url https://chensoffice365.sharepoint.com
+```
+
+Retrieve SharePoint search results for the keywords before the pipeline 
+
 ## PARAMETERS
 
 ### -QueryText
