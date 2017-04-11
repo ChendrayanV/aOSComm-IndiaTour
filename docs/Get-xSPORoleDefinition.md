@@ -4,7 +4,7 @@ online version:
 schema: 2.0.0
 ---
 
-# Get-xSPOSitePermission
+# Get-xSPORoleDefinition
 
 ## SYNOPSIS
 {{Fill in the Synopsis}}
@@ -12,7 +12,7 @@ schema: 2.0.0
 ## SYNTAX
 
 ```
-Get-xSPOSitePermission [-Url] <Object>
+Get-xSPORoleDefinition [-Url] <Object>
 ```
 
 ## DESCRIPTION

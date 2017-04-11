@@ -1,4 +1,4 @@
-function Get-xSPOSitePermission {
+function Get-xSPORoleDefinition {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName)]
