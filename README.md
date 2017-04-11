@@ -53,6 +53,10 @@ a. Exception Handling Scope is one of the advanced task in the Common Programmin
 a. Use [help about_Functions_OutputTypeAttribute](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_functions_outputtypeattribute)
 b. A simple one line declaration helps us to select the properties by tab completion. 
 
+## Sincere Thanks
+[Vijai Anand Ramalingam](http://www.c-sharpcorner.com/members/vijai-anand-ramalingam) for the excellent SharePoint 2013 .Net Client Side Object Model Cookbook
+[François-Xavier Cat](https://github.com/lazywinadmin) for expanding help in MD and github.
+[aOSComm](https://twitter.com/aOSComm) for giving me an oppurtunity to share ideas about CSOM, EWS Managed API and PowerShell 
 ## Disclaimer
 All the PowerShell function created by me (Chendrayan Venkatesan a.k.a Chen V) in this module are built on the fly to demo about **Writing PowerShell
 Script Module and platyPS for external help**. Please do not use this in production environment without testing. 

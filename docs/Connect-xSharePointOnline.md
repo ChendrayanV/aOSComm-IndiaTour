@@ -7,7 +7,7 @@ schema: 2.0.0
 # Connect-xSharePointOnline
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function to establish a connection with SharePoint Online tenant.
 
 ## SYNTAX
 
@@ -16,21 +16,23 @@ Connect-xSharePointOnline [-Url] <Uri> [-Credential] <PSCredential> [<CommonPara
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This PowerShell function is built using Client Side Object Model (CSOM). For a demo purpose
+we are connecting with SharePoint Online tenant as a tenant admin. So, we can access all other 
+site collections and sites. 
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Connect-xSharePointOnline -Url 'https://contoso-admin.sharepoint.com' -Credential 'admin@contoso.onmicrosoft.com'
 ```
 
-{{ Add example description here }}
+This cmdlet will allow you to establish a connection with SharePoint Online as tenant admin. 
 
 ## PARAMETERS
 
 ### -Credential
-{{Fill Credential Description}}
+SharePoint Online Tenant administrator credential.
 
 ```yaml
 Type: PSCredential
@@ -45,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -Url
-{{Fill Url Description}}
+SharePoint Online Tenant admin url (Example: https://tenant-admin.sharepoint.com)
 
 ```yaml
 Type: Uri
@@ -76,4 +78,4 @@ as mandatory. In next release we will include AAD default authentication.
 [@ChendrayanV](https://twitter.com/ChendrayanV)  
 [Blog Link](http://chen.about-powershell.com)
 ## RELATED LINKS
-
+[SharePoint 2013 .Net Client Side Object Model Cookbook](http://www.c-sharpcorner.com/ebooks/sharepoint-2013-dot-net-client-side-object-model-cookbook)
