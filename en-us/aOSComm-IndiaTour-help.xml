@@ -728,16 +728,16 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 <command:details><command:name>Get-xFolder</command:name>
 <command:verb>Get</command:verb>
 <command:noun>xFolder</command:noun>
-<maml:description><maml:para>{{Fill in the Synopsis}}
+<maml:description><maml:para>A PowerShell function to retrieve folder information from the given mailbox
 </maml:para>
 </maml:description>
 </command:details>
-<maml:description><maml:para>{{Fill in the Description}}
+<maml:description><maml:para>This function is built using EWS Managed API and need mailbox delegate or impersonation permission.
 </maml:para>
 </maml:description>
 <command:syntax><command:syntaxItem><maml:name>Get-xFolder</maml:name>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Identity</maml:name>
-<maml:Description><maml:para>{{Fill Identity Description}}
+<maml:Description><maml:para>A valid mailbox SMTP address
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -746,7 +746,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 <dev:defaultValue>None</dev:defaultValue>
 </command:parameter>
 <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="1" aliases="none"><maml:name>ItemCount</maml:name>
-<maml:Description><maml:para>{{Fill ItemCount Description}}
+<maml:Description><maml:para>Number of folders to be retrieved
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
@@ -757,7 +757,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </command:syntaxItem>
 </command:syntax>
 <command:parameters><command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Identity</maml:name>
-<maml:Description><maml:para>{{Fill Identity Description}}
+<maml:Description><maml:para>A valid mailbox SMTP address
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -766,7 +766,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 <dev:defaultValue>None</dev:defaultValue>
 </command:parameter>
 <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="1" aliases="none"><maml:name>ItemCount</maml:name>
-<maml:Description><maml:para>{{Fill ItemCount Description}}
+<maml:Description><maml:para>Number of folders to be retrieved
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
@@ -796,8 +796,20 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:alert>
 </maml:alertSet>
 <command:examples><command:example><maml:title>Example 1</maml:title>
-<dev:code>PS C:\&gt; {{ Add example code here }}</dev:code>
-<dev:remarks><maml:para>{{ Add example description here }}
+<dev:code>PS C:\&gt; Get-xFolder -Identity 'user1@contoso.onmicrosoft.com'</dev:code>
+<dev:remarks><maml:para>Lists first 10 folder information for the mailbox 'user1@contoso.onmicrosoft.com'
+</maml:para>
+</dev:remarks>
+</command:example>
+<command:example><maml:title>Example 2</maml:title>
+<dev:code>PS C:\&gt; 'user1@contoso.onmicrosoft.com' , 'user2@contoso.onmicrosoft.com' | Get-xFolder</dev:code>
+<dev:remarks><maml:para>Lists first 10 folder information for the mailbox user1 and user2
+</maml:para>
+</dev:remarks>
+</command:example>
+<command:example><maml:title>Example 3</maml:title>
+<dev:code>PS C:\&gt; Get-xFolder -Identity 'user1@contoso.onmicrosoft.com' -ItemCount 30</dev:code>
+<dev:remarks><maml:para>Lists first 30 folder information for the mailbox user1 and user2
 </maml:para>
 </dev:remarks>
 </command:example>
@@ -817,16 +829,16 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 <command:details><command:name>Get-xInboxRule</command:name>
 <command:verb>Get</command:verb>
 <command:noun>xInboxRule</command:noun>
-<maml:description><maml:para>{{Fill in the Synopsis}}
+<maml:description><maml:para>A PowerShell function to retreive Inbox rule information.
 </maml:para>
 </maml:description>
 </command:details>
-<maml:description><maml:para>{{Fill in the Description}}
+<maml:description><maml:para>This PowerShell function is built using EWS Managed API and requires mailbox delegate permission or impersonation permission.
 </maml:para>
 </maml:description>
 <command:syntax><command:syntaxItem><maml:name>Get-xInboxRule</maml:name>
 <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Identity</maml:name>
-<maml:Description><maml:para>{{Fill Identity Description}}
+<maml:Description><maml:para>A valid mailbox SMTP address
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -837,7 +849,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </command:syntaxItem>
 </command:syntax>
 <command:parameters><command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Identity</maml:name>
-<maml:Description><maml:para>{{Fill Identity Description}}
+<maml:Description><maml:para>A valid mailbox SMTP address
 </maml:para>
 </maml:Description>
 <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -867,8 +879,14 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:alert>
 </maml:alertSet>
 <command:examples><command:example><maml:title>Example 1</maml:title>
-<dev:code>PS C:\&gt; {{ Add example code here }}</dev:code>
-<dev:remarks><maml:para>{{ Add example description here }}
+<dev:code>PS C:\&gt; Get-xInboxRule -Identity 'user1@constoso.com'</dev:code>
+<dev:remarks><maml:para>A PowerShell function to retrieve inbox rule for the given mailbox
+</maml:para>
+</dev:remarks>
+</command:example>
+<command:example><maml:title>Example 2</maml:title>
+<dev:code>PS C:\&gt; 'user1@constoso.com' , 'user2@constoso.com' | Get-xInboxRule</dev:code>
+<dev:remarks><maml:para>A PowerShell function to retrieve inbox rule for the given mailboxes
 </maml:para>
 </dev:remarks>
 </command:example>
@@ -1640,6 +1658,102 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </command:relatedLinks>
 </command:command>
 <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+<command:details><command:name>Get-xSPOListItem</command:name>
+<command:verb>Get</command:verb>
+<command:noun>xSPOListItem</command:noun>
+<maml:description><maml:para>{{Fill in the Synopsis}}
+</maml:para>
+</maml:description>
+</command:details>
+<maml:description><maml:para>{{Fill in the Description}}
+</maml:para>
+</maml:description>
+<command:syntax><command:syntaxItem><maml:name>Get-xSPOListItem</maml:name>
+<command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Url</maml:name>
+<maml:Description><maml:para>{{Fill Url Description}}
+</maml:para>
+</maml:Description>
+<command:parameterValue required="true" variableLength="false">Uri</command:parameterValue>
+<dev:type><maml:name>Uri</maml:name>
+<maml:uri /></dev:type>
+<dev:defaultValue>None</dev:defaultValue>
+</command:parameter>
+<command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="1" aliases="none"><maml:name>Title</maml:name>
+<maml:Description><maml:para>{{Fill Title Description}}
+</maml:para>
+</maml:Description>
+<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
+<dev:type><maml:name>Object</maml:name>
+<maml:uri /></dev:type>
+<dev:defaultValue>None</dev:defaultValue>
+</command:parameter>
+<command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="2" aliases="none"><maml:name>ItemCount</maml:name>
+<maml:Description><maml:para>{{Fill ItemCount Description}}
+</maml:para>
+</maml:Description>
+<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
+<dev:type><maml:name>Object</maml:name>
+<maml:uri /></dev:type>
+<dev:defaultValue>None</dev:defaultValue>
+</command:parameter>
+</command:syntaxItem>
+</command:syntax>
+<command:parameters><command:parameter required="false" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="2" aliases="none"><maml:name>ItemCount</maml:name>
+<maml:Description><maml:para>{{Fill ItemCount Description}}
+</maml:para>
+</maml:Description>
+<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
+<dev:type><maml:name>Object</maml:name>
+<maml:uri /></dev:type>
+<dev:defaultValue>None</dev:defaultValue>
+</command:parameter>
+<command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="1" aliases="none"><maml:name>Title</maml:name>
+<maml:Description><maml:para>{{Fill Title Description}}
+</maml:para>
+</maml:Description>
+<command:parameterValue required="true" variableLength="false">Object</command:parameterValue>
+<dev:type><maml:name>Object</maml:name>
+<maml:uri /></dev:type>
+<dev:defaultValue>None</dev:defaultValue>
+</command:parameter>
+<command:parameter required="true" variableLength="true" globbing="false" pipelineInput="True (ByPropertyName, ByValue)" position="0" aliases="none"><maml:name>Url</maml:name>
+<maml:Description><maml:para>{{Fill Url Description}}
+</maml:para>
+</maml:Description>
+<command:parameterValue required="true" variableLength="false">Uri</command:parameterValue>
+<dev:type><maml:name>Uri</maml:name>
+<maml:uri /></dev:type>
+<dev:defaultValue>None</dev:defaultValue>
+</command:parameter>
+</command:parameters>
+<command:inputTypes><command:inputType><dev:type><maml:name>System.Uri</maml:name>
+</dev:type>
+<maml:description><maml:para>System.Object
+</maml:para>
+</maml:description>
+</command:inputType>
+</command:inputTypes>
+<command:returnValues><command:returnValue><dev:type><maml:name>System.Object</maml:name>
+</dev:type>
+<maml:description><maml:para>
+</maml:para>
+</maml:description>
+</command:returnValue>
+</command:returnValues>
+<maml:alertSet><maml:alert><maml:para>
+</maml:para>
+</maml:alert>
+</maml:alertSet>
+<command:examples><command:example><maml:title>Example 1</maml:title>
+<dev:code>PS C:\&gt; {{ Add example code here }}</dev:code>
+<dev:remarks><maml:para>{{ Add example description here }}
+</maml:para>
+</dev:remarks>
+</command:example>
+</command:examples>
+<command:relatedLinks></command:relatedLinks>
+</command:command>
+<command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
 <command:details><command:name>Get-xSPONavigationNode</command:name>
 <command:verb>Get</command:verb>
 <command:noun>xSPONavigationNode</command:noun>
@@ -1707,7 +1821,7 @@ PS C:\&gt; Connect-xExchangeOnline -Credential $Credential</dev:code>
 </maml:description>
 </command:returnValue>
 </command:returnValues>
-<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication.  @ChendrayanV (https://twitter.com/ChendrayanV)  Blog Link (http://chen.about-powershell.com)
+<maml:alertSet><maml:alert><maml:para>The client laptop we used for testing is not domain joined. So, for testing purpose $Credential parameter is set  as mandatory. In next release we will include AAD default authentication. @ChendrayanV (https://twitter.com/ChendrayanV) Blog Link (http://chen.about-powershell.com)
 </maml:para>
 </maml:alert>
 </maml:alertSet>
