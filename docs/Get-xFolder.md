@@ -7,7 +7,7 @@ schema: 2.0.0
 # Get-xFolder
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function to retrieve folder information from the given mailbox
 
 ## SYNTAX
 
@@ -16,21 +16,35 @@ Get-xFolder [-Identity] <String> [[-ItemCount] <Int32>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This function is built using EWS Managed API and need mailbox delegate or impersonation permission. 
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-xFolder -Identity 'user1@contoso.onmicrosoft.com'
 ```
 
-{{ Add example description here }}
+Lists first 10 folder information for the mailbox 'user1@contoso.onmicrosoft.com'
+
+### Example 2
+```
+PS C:\> 'user1@contoso.onmicrosoft.com' , 'user2@contoso.onmicrosoft.com' | Get-xFolder 
+```
+
+Lists first 10 folder information for the mailbox user1 and user2
+
+### Example 3
+```
+PS C:\> Get-xFolder -Identity 'user1@contoso.onmicrosoft.com' -ItemCount 30
+```
+
+Lists first 30 folder information for the mailbox user1 and user2
 
 ## PARAMETERS
 
 ### -Identity
-{{Fill Identity Description}}
+A valid mailbox SMTP address
 
 ```yaml
 Type: String
@@ -45,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -ItemCount
-{{Fill ItemCount Description}}
+Number of folders to be retrieved
 
 ```yaml
 Type: Int32

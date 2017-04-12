@@ -9,7 +9,12 @@ function Get-xFolder {
 
         [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
         [int]
-        $ItemCount
+        $ItemCount,
+
+        [Parameter(ValueFromPipeline, ValueFromPipelineByPropertyName)]
+        [ValidateSet('Deep' , 'Shallow' , 'SoftDeleted')]
+        [string]
+        $Traversal
     )
     
     begin {
@@ -27,7 +32,12 @@ function Get-xFolder {
             else {
                 $View = [Microsoft.Exchange.WebServices.Data.FolderView]::new(10)
             }
-            $View.Traversal = [Microsoft.Exchange.WebServices.Data.FolderTraversal]::Deep
+            if ($PSBoundParameters.ContainsKey('Traversal')) {
+                $View.Traversal = [Microsoft.Exchange.WebServices.Data.FolderTraversal]::$Traversal
+            }
+            else {
+                $View.Traversal = [Microsoft.Exchange.WebServices.Data.FolderTraversal]::Deep
+            }
             $Folder = [Microsoft.Exchange.WebServices.Data.Folder]::Bind($ExchangeService, [Microsoft.Exchange.WebServices.Data.WellKnownFolderName]::MsgFolderRoot)
             $Folder.FindFolders($View)
         }

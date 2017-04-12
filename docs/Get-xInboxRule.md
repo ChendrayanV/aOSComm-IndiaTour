@@ -7,7 +7,7 @@ schema: 2.0.0
 # Get-xInboxRule
 
 ## SYNOPSIS
-{{Fill in the Synopsis}}
+A PowerShell function to retreive Inbox rule information.
 
 ## SYNTAX
 
@@ -16,21 +16,28 @@ Get-xInboxRule [-Identity] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+This PowerShell function is built using EWS Managed API and requires mailbox delegate permission or impersonation permission. 
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+PS C:\> Get-xInboxRule -Identity 'user1@constoso.com'
 ```
 
-{{ Add example description here }}
+A PowerShell function to retrieve inbox rule for the given mailbox
+
+### Example 2
+```
+PS C:\> 'user1@constoso.com' , 'user2@constoso.com' | Get-xInboxRule
+```
+
+A PowerShell function to retrieve inbox rule for the given mailboxes
 
 ## PARAMETERS
 
 ### -Identity
-{{Fill Identity Description}}
+A valid mailbox SMTP address
 
 ```yaml
 Type: String
