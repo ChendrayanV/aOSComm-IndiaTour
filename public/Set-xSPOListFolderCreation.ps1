@@ -1,11 +1,17 @@
-function Enable-xSPOFolderCreation {
+function Set-xSPOListFolderCreation {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory,ValueFromPipeline,ValueFromPipelineByPropertyName)]
+        [uri]
         $Url,
 
         [Parameter(Mandatory,ValueFromPipeline,ValueFromPipelineByPropertyName)]
-        $Title
+        [string]
+        $Title,
+
+        [Parameter(Mandatory)]
+        [bool]
+        $Allow
     )
     
     begin {
@@ -16,7 +22,7 @@ function Enable-xSPOFolderCreation {
             $SPOClientContext = [Microsoft.SharePoint.Client.ClientContext]::new($Url)
             $SPOClientContext.Credentials = $SPOCredential
             $List = $SPOClientContext.Web.Lists.GetByTitle($Title)
-            $List.EnableFolderCreation = $true
+            $List.EnableFolderCreation = $Allow
             $List.Update()
             $SPOClientContext.ExecuteQuery()
             $SPOClientContext.Dispose()
